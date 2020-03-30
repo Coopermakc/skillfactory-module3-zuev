@@ -672,6 +672,11 @@ footer {
   .product {
     margin: 0 auto;
   }
+  .products-menu {
+    margin-left: 0;
+    width: 100%;
+    padding-left: 0;
+  }
   .shortcuts {
     width: 100vw;
     margin: 0 auto;
@@ -741,6 +746,9 @@ footer {
   .products-wrapper > h3 {
     font-size: 32px;
   }
+  .presentation-main-member {
+    left: 370px;
+  }
   .subscribe-title {
     margin: 0;
     line-height: 1.2em;
@@ -768,6 +776,10 @@ footer {
   }
   .tools {
     width: 100vw;
+  }
+  .presentation-main-member {
+    position: static;
+    width: 100%;
   }
   .subscribe-title {
     font-size: 30px;
@@ -920,10 +932,7 @@ footer {
   .presentation-img {
     margin: 10px auto;
   }
-  .presentation-main-member {
-    position: static;
-    width: 100%;
-  }
+
   .presentation-team-wrapper {
     width: 100vw;
     justify-content: center;
